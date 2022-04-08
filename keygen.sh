@@ -1,7 +1,7 @@
 #!/bin/bash
 # Generate a private key and public key pair
 
-# Number of key pairs (default 10)
+# Number of key pairs (default 10,000)
 NUM=${1:-10000}
 
 # Key size (default 4096)
@@ -14,7 +14,6 @@ for i in `seq 1 $NUM`
 do
 	NAME=rsa-$SIZE-$i
 
-	# Public/Private key files
 	PRIK=$DEST/$NAME.pem
 	PUBK=$DEST/$NAME.pub
 
@@ -30,17 +29,3 @@ do
 done
 
 exit
-
-# You'll have to repeat the password when encrypting the key and again
-# to output the public key. DO NOT FORGET THE PASSWORD
-
-# Call this file with : sh genkeys.sh
-
-# For number of key pairs
-# sh genkeys.sh num
-
-# For 3248 bit keys:
-# sh genkeys.sh num 3248
-
-# For a keypair saved to /tmp
-# sh genkeys.sh num 4096 /tmp

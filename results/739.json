@@ -1,0 +1,237 @@
+[
+  {
+    "code": 200,
+    "postId": "1790",
+    "uniqueKeys": 5,
+    "correctKeys": 5,
+    "duplicateKeys": 0,
+    "classifiedKeys": [
+      {
+        "identification": "\nMIICIjANBgkqhki",
+        "orderedResults": [
+          {
+            "group": "II",
+            "value": "0.2872254079"
+          },
+          {
+            "group": "IV",
+            "value": "0.1792791660"
+          },
+          {
+            "group": "V",
+            "value": "0.1582273485"
+          },
+          {
+            "group": "VII",
+            "value": "0.1449042425"
+          },
+          {
+            "group": "I",
+            "value": "0.1382415047"
+          },
+          {
+            "group": "VI",
+            "value": "0.0897170575"
+          },
+          {
+            "group": "III",
+            "value": "0.0024052726"
+          }
+        ],
+        "rsaKey": {
+          "modulusBitLen": 4096,
+          "exponent": 65537
+        },
+        "mostAnonymous": false,
+        "duplicated": false
+      },
+      {
+        "identification": "\nMIICIjANBgkqhki",
+        "orderedResults": [
+          {
+            "group": "II",
+            "value": "0.4084628837"
+          },
+          {
+            "group": "V",
+            "value": "0.2333933909"
+          },
+          {
+            "group": "VII",
+            "value": "0.2047057239"
+          },
+          {
+            "group": "VI",
+            "value": "0.1498513797"
+          },
+          {
+            "group": "III",
+            "value": "0.0035866216"
+          },
+          {
+            "group": "I",
+            "value": null
+          },
+          {
+            "group": "IV",
+            "value": null
+          }
+        ],
+        "rsaKey": {
+          "modulusBitLen": 4096,
+          "exponent": 65537
+        },
+        "mostAnonymous": false,
+        "duplicated": false
+      },
+      {
+        "identification": "\nMIICIjANBgkqhki",
+        "orderedResults": [
+          {
+            "group": "II",
+            "value": "0.4577805608"
+          },
+          {
+            "group": "VII",
+            "value": "0.2261643448"
+          },
+          {
+            "group": "V",
+            "value": "0.1679662348"
+          },
+          {
+            "group": "VI",
+            "value": "0.0903788093"
+          },
+          {
+            "group": "III",
+            "value": "0.0577100501"
+          },
+          {
+            "group": "I",
+            "value": null
+          },
+          {
+            "group": "IV",
+            "value": null
+          }
+        ],
+        "rsaKey": {
+          "modulusBitLen": 4096,
+          "exponent": 65537
+        },
+        "mostAnonymous": false,
+        "duplicated": false
+      },
+      {
+        "identification": "\nMIICIjANBgkqhki",
+        "orderedResults": [
+          {
+            "group": "II",
+            "value": "0.2779677622"
+          },
+          {
+            "group": "IV",
+            "value": "0.1853346086"
+          },
+          {
+            "group": "V",
+            "value": "0.1554406561"
+          },
+          {
+            "group": "I",
+            "value": "0.1459717658"
+          },
+          {
+            "group": "VII",
+            "value": "0.1393066155"
+          },
+          {
+            "group": "VI",
+            "value": "0.0936530080"
+          },
+          {
+            "group": "III",
+            "value": "0.0023255835"
+          }
+        ],
+        "rsaKey": {
+          "modulusBitLen": 4096,
+          "exponent": 65537
+        },
+        "mostAnonymous": true,
+        "duplicated": false
+      },
+      {
+        "identification": "\nMIICIjANBgkqhki",
+        "orderedResults": [
+          {
+            "group": "II",
+            "value": "0.4752177530"
+          },
+          {
+            "group": "VII",
+            "value": "0.2381575134"
+          },
+          {
+            "group": "V",
+            "value": "0.1763007076"
+          },
+          {
+            "group": "VI",
+            "value": "0.0942097678"
+          },
+          {
+            "group": "III",
+            "value": "0.0161142580"
+          },
+          {
+            "group": "I",
+            "value": null
+          },
+          {
+            "group": "IV",
+            "value": null
+          }
+        ],
+        "rsaKey": {
+          "modulusBitLen": 4096,
+          "exponent": 65537
+        },
+        "mostAnonymous": false,
+        "duplicated": false
+      }
+    ],
+    "containerResults": [
+      {
+        "group": "II",
+        "value": "0.9462134324"
+      },
+      {
+        "group": "VII",
+        "value": "0.0296852335"
+      },
+      {
+        "group": "V",
+        "value": "0.0226714857"
+      },
+      {
+        "group": "VI",
+        "value": "0.0014298458"
+      },
+      {
+        "group": "III",
+        "value": "0.0000000022"
+      },
+      {
+        "group": "I",
+        "value": null
+      },
+      {
+        "group": "IV",
+        "value": null
+      }
+    ],
+    "maxNumberOfClassificationExceeded": false
+  }
+]

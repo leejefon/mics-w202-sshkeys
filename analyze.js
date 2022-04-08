@@ -7,7 +7,7 @@ function classify(start, grouping) {
   const pubkeys = [];
 
   for (let i = 0; i < grouping; i++) {
-    const keyfile = `${keyPrefix}${start + i}.pub`;
+    const keyfile = `keys/${keyPrefix}${start + i}.pub`;
     pubkeys.push(fs.readFileSync(keyfile, 'utf-8'));
   }
 
@@ -25,11 +25,12 @@ function classify(start, grouping) {
 
 const pClassifies = [];
 const grouping = 5;
-const runGroupCount = 1;
-const startGroup = process.argv[2] || 1;
+const startGroup = parseInt(process.argv[2]) || 1;
+const runGroupCount = parseInt(process.argv[3]) || 1;
 
-for (let i = 1; i < (startGroup * grouping * runGroupCount); i += grouping) {
-  pClassifies.push(classify(i, grouping));
+let start = (startGroup - 1) * grouping + 1
+for (; start < (startGroup * grouping * runGroupCount); start += grouping) {
+  pClassifies.push(classify(start, grouping));
 }
 
 Promise

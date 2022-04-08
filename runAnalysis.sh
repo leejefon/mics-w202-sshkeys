@@ -1,8 +1,9 @@
+total=10000
 grouping=5
-total=20
 
-for i in `seq 1 $((total / grouping))`
+for i in `seq 7 $(($total / $grouping))`
 do
-  node analyze $i
-  sleep 1
+  echo $i
+  node analyze $i > results/$i.json
+  sleep 0.3
 done
